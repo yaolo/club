@@ -1,0 +1,340 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: "MicroSoft YaHei", "sans-serif";
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  color: #000;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+input,
+textarea {
+  border: none;
+  outline: none;
+  resize: none;
+  -webkit-appearance: none;
+}
+img {
+  vertical-align: bottom;
+  display: block;
+}
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+.clearfix::after,
+.clearfix::before {
+  content: ".";
+  line-height: 0;
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+@font-face {
+  font-family: "iconfont";
+  src: url('../iconfont/iconfont.eot?t=1491897445522');
+  /* IE9*/
+  src: url('../iconfont/iconfont.eot?t=1491897445522#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../iconfont/iconfont.woff?t=1491897445522') format('woff'), /* chrome, firefox */ url('../iconfont/iconfont.ttf?t=1491897445522') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('../iconfont/iconfont.svg?t=1491897445522#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-aixinon:before {
+  content: "\e601";
+}
+.icon-font47:before {
+  content: "\e63d";
+}
+.icon-jiahao2fill:before {
+  content: "\e728";
+}
+.icon-wenhaofill:before {
+  content: "\e72c";
+}
+.icon-xuanze:before {
+  content: "\e72e";
+}
+.icon-erweima:before {
+  content: "\e642";
+}
+.icon-jushoucang:before {
+  content: "\e643";
+}
+.icon-lajixiang:before {
+  content: "\e645";
+}
+.icon-saoyisao:before {
+  content: "\e649";
+}
+.icon-shezhi:before {
+  content: "\e64b";
+}
+.icon-shengyin:before {
+  content: "\e64c";
+}
+.icon-shijian:before {
+  content: "\e64d";
+}
+.icon-shouhuodizhi:before {
+  content: "\e64e";
+}
+.icon-shuaxin:before {
+  content: "\e650";
+}
+.icon-liuyan:before {
+  content: "\e611";
+}
+.icon-yuyin:before {
+  content: "\e687";
+}
+.icon-bottom-m:before {
+  content: "\e60d";
+}
+.icon-user-m:before {
+  content: "\e60c";
+}
+.icon-plumage:before {
+  content: "\e60b";
+}
+.icon-piaofang:before {
+  content: "\e604";
+}
+.icon-fanhui:before {
+  content: "\e600";
+}
+.icon-gengduo:before {
+  content: "\e602";
+}
+.icon-youjiantou:before {
+  content: "\e605";
+}
+.icon-zuojiantou:before {
+  content: "\e606";
+}
+.icon-wode:before {
+  content: "\e607";
+}
+.icon-ziliaoku:before {
+  content: "\e608";
+}
+.icon-sousuo:before {
+  content: "\e603";
+}
+header {
+  width: 100%;
+  min-width: 1000px;
+  height: 60px;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding-left: 30px;
+  border-bottom: 1px solid #F0F0F0;
+}
+header .f-left {
+  /*.logo{
+      width: 172px;
+      height: 46px;
+      margin-top:7px;
+      background: url("../img/logo.png") 0 0 no-repeat;
+      background-size: 100% 100%;
+    }*/
+}
+header .f-left > div {
+  float: left;
+  height: 60px;
+  line-height: 60px;
+}
+header .f-left > div:nth-child(2) {
+  color: #75D7B0;
+  margin-left: 100px;
+  font-size: 20px;
+  cursor: pointer;
+}
+header .f-left > div:nth-child(2):hover {
+  color: rgba(117, 215, 176, 0.7);
+}
+header .f-left .serchbox {
+  position: relative;
+}
+header .f-left .serchbox input {
+  padding: 0 40px 0 20px;
+  width: 200px;
+  height: 38px;
+  font-size: 14px;
+  border-radius: 40px;
+  background: #eee;
+  margin-left: 40px;
+}
+header .f-left .serchbox i {
+  position: absolute;
+  top: 2px;
+  right: 12px;
+  color: #969696;
+}
+header .f-left .logo {
+  color: #75D7B0;
+  margin: 0 20px;
+  font-size: 30px;
+  font-weight: 500;
+}
+header .f-right a {
+  display: inline-block;
+  color: #969696;
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+  margin: 0 20px;
+  float: left;
+}
+header .f-right a:hover {
+  color: rgba(150, 150, 150, 0.7);
+}
+header .f-right a:nth-child(n+2) {
+  float: left;
+  width: 80px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  margin: 11px 5px 0 15px;
+  border: 1px solid #75D7B0;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #75D7B0;
+  background-color: transparent;
+  cursor: pointer;
+}
+header .f-right a:nth-child(n+2):hover {
+  background: rgba(117, 215, 176, 0.1);
+}
+header .f-right a:nth-child(n+2):last-child {
+  margin-right: 30px;
+  background: #75D7B0;
+  color: #fff;
+  width: 100px;
+}
+header .f-right a:nth-child(n+2):last-child:hover {
+  background: rgba(117, 215, 176, 0.8);
+}
+.writings {
+  width: 100%;
+}
+.writings .writing-item {
+  width: 100%;
+  border-bottom: 1px solid #F0F0F0;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.writings .writing-item:last-of-type {
+  border-bottom: 0;
+}
+.writings .writing-item .item-con {
+  width: 72%;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+.writings .writing-item .item-con .top > * {
+  float: left;
+}
+.writings .writing-item .item-con .top .topimg {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.writings .writing-item .item-con .top .topimg img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.writings .writing-item .item-con .top .topname,
+.writings .writing-item .item-con .top p {
+  color: #000;
+  font-size: 14px;
+  height: 34px;
+  line-height: 34px;
+  margin: 0 10px;
+}
+.writings .writing-item .item-con .top p {
+  color: #969696;
+  margin-left: 0;
+}
+.writings .writing-item .item-con .article a {
+  display: inline-block;
+  color: #000;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.writings .writing-item .item-con .article a:hover {
+  text-decoration: underline;
+}
+.writings .writing-item .item-con .article p {
+  text-indent: 2em;
+}
+.writings .writing-item .item-con .active {
+  margin: 5px;
+}
+.writings .writing-item .item-con .active > a {
+  float: left;
+  display: inline-block;
+  color: #969696;
+  margin-right: 10px;
+  font-size: 12px;
+}
+.writings .writing-item .item-con .active > a:last-of-type {
+  cursor: default;
+}
+.writings .writing-item .item-con .active i {
+  vertical-align: text-top;
+}
+.writings .writing-item .item-con .active i.icon-aixinon {
+  display: inline-block;
+  font-size: 10px;
+  margin-top: 1px;
+}
+.writings .writing-item a.item-img {
+  display: inline-block;
+  width: 150px;
+  height: 120px;
+  background: #75D7B0;
+  margin-top: 40px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.writings .writing-item a.item-img img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}

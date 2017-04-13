@@ -1,0 +1,220 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: #000;
+  cursor: pointer;
+}
+.centrality {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 60px;
+  overflow: hidden;
+}
+.banner {
+  width: 100%;
+  height: 300px;
+  background: #75D7B0;
+  position: relative;
+}
+.banner .banner-btn {
+  display: none;
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  left: 0;
+  text-align: center;
+}
+.banner .banner-btn > div {
+  height: 60px;
+  line-height: 60px;
+  width: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  float: left;
+  border-radius: 0 5px 5px 0;
+  color: #fff;
+}
+.banner .banner-btn > div:last-child {
+  float: right;
+  border-radius: 5px 0 0 5px;
+}
+.banner .banner-btn i {
+  font-size: 20px;
+  font-weight: 600;
+}
+.banner:hover .banner-btn {
+  display: block;
+}
+.container {
+  margin-top: 30px;
+}
+.container > .f-left {
+  width: 66.66%;
+  margin-right: 30px;
+}
+.container > .f-left .hot-topic {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #F0F0F0;
+  margin-bottom: 20px;
+}
+.container > .f-left .hot-topic p {
+  display: inline-block;
+  margin: 10px 10px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #F0F0F0;
+  padding: 0 10px 0 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #F7F7F7;
+  color: #2F2F2F;
+  position: relative;
+  overflow: hidden;
+}
+.container > .f-left .hot-topic p:hover {
+  background: #f1f1f1;
+}
+.container > .f-left .hot-topic p i {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: 100% 100% !important;
+}
+.container > .f-left .hot-topic p:first-of-type i {
+  background: url("../img/working.jpeg") 0 0 no-repeat;
+}
+.container > .f-left .hot-topic p:nth-of-type(2) i {
+  background: url("../img/eating.jpg") 0 0 no-repeat;
+}
+.container > .f-left .hot-topic p:nth-of-type(3) i {
+  background: url("../img/designing.jpg") 0 0 no-repeat;
+}
+.container > .f-left .hot-topic p:nth-of-type(4) i {
+  background: url("../img/computer_guy.jpg") 0 0 no-repeat;
+}
+.container > .f-left .hot-topic p:nth-of-type(5) i {
+  background: url("../img/living.jpg") 0 0 no-repeat;
+}
+.container > .f-left .hot-topic p:nth-of-type(6) i {
+  background: url("../img/loving.jpg") 0 0 no-repeat;
+}
+.container > .f-left .hot-topic p:nth-of-type(7) i {
+  background: url("../img/traveling.jpg") 0 0 no-repeat;
+}
+.container > .f-left .hot-topic a {
+  color: #969696;
+  margin-left: 20px;
+}
+.container > .f-left .more-writings {
+  display: block;
+  text-align: center;
+  width: 80%;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  border: 0;
+  background: #A5A5A5;
+  border-radius: 4px;
+  margin: 20px 0;
+  margin-left: 10%;
+}
+.container > .f-left .more-writings:hover {
+  background: #8f8e8e;
+}
+.container .con-right {
+  overflow: hidden;
+  padding-top: 10px;
+}
+.container .con-right .con-select a {
+  display: block;
+  width: 88%;
+  margin: 0 auto;
+  height: 50px;
+  line-height: 50px;
+  background: #C79EFE;
+  margin-bottom: 14px;
+  border-radius: 4px;
+  color: #fff;
+  padding-left: 20px;
+}
+.container .con-right .con-select a:hover {
+  background: #bb8cfa;
+}
+.container .con-right .con-select a:nth-child(2) {
+  background: #75D7B0;
+}
+.container .con-right .con-select a:nth-child(2):hover {
+  background: #5cd1a2;
+}
+.container .con-right .con-select a:nth-child(3) {
+  background: #FEBB50;
+}
+.container .con-right .con-select a:nth-child(3):hover {
+  background: #f9b241;
+}
+.container .con-right .con-select a:nth-child(4) {
+  background: #F69581;
+}
+.container .con-right .con-select a:nth-child(4):hover {
+  background: #f38a74;
+}
+.container .con-right .hot-author {
+  width: 100%;
+}
+.container .con-right .hot-author h4 {
+  color: #969696;
+  font-size: 18px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 20px;
+  font-weight: 500;
+}
+.container .con-right .hot-author .authors {
+  height: 300px;
+  overflow: hidden;
+}
+.container .con-right .hot-author .authors li {
+  height: 60px;
+  width: 88%;
+  position: relative;
+  margin: 0 auto;
+}
+.container .con-right .hot-author .authors li .f-left {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 5px 10px 5px 0;
+}
+.container .con-right .hot-author .authors li .f-left img {
+  width: 100%;
+  height: 100%;
+}
+.container .con-right .hot-author .authors li div {
+  overflow: hidden;
+  padding-top: 10px;
+}
+.container .con-right .hot-author .authors li div a {
+  font-size: 14px;
+}
+.container .con-right .hot-author .authors li div p {
+  color: #969696;
+  font-size: 12px;
+}
+.container .con-right .hot-author .authors li .follow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #42c02e;
+}
