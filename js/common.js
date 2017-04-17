@@ -2,6 +2,7 @@
     var main={
         init:function () {
             $('#tologin').click(function () {
+                console.log(123);
                 main.pbstyle();
                 $('.login').addClass('show');
             });
@@ -19,4 +20,5 @@
         }
     };
     main.init();
+    return main;
 })();
