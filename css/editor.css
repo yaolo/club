@@ -1,0 +1,21 @@
+.centrality {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 70px;
+  overflow: hidden;
+}
+.centrality .title {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0 0 20px 60px;
+  color: #888;
+}
+.centrality > div {
+  margin: 0 auto;
+  width: 980px;
+  height: 1000px;
+  border: 1px solid #F0F0F0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
