@@ -1,0 +1,41 @@
+@borderColor: #F0F0F0;
+@mainColor: #75D7B0;
+@fontColor: #969696;
+.centrality {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 60px;
+  overflow: hidden;
+  h2 {
+    font-size: 20px;
+    color: @fontColor;
+    margin: 10px 0;
+  }
+  img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid @borderColor;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+  }
+  > div {
+    border-bottom: 1px solid @borderColor;
+    padding: 20px 0;
+  }
+  p {
+    display: inline-block;
+    font-size: 16px;
+    color: @fontColor;
+    width: 120px;
+  }
+  input{
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid @borderColor;
+    padding-left: 10px;
+  }
+
+}
