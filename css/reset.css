@@ -423,7 +423,7 @@ header .f-right .user-img img {
 .login .info a:hover {
   text-decoration: underline;
 }
-.login #register {
+.login #btn {
   margin-top: 16px;
   margin-bottom: 0;
   background: #75D7B0;
@@ -441,7 +441,7 @@ header .f-right .user-img img {
   padding: 0;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-.login #register:hover {
+.login #btn:hover {
   opacity: 0.6;
 }
 .login .close {
