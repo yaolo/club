@@ -67,11 +67,32 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.icon-shoujihao:before {
+  content: "\e65f";
+}
+.icon-zuo:before {
+  content: "\e647";
+}
 .icon-aixinon:before {
   content: "\e601";
 }
+.icon-svg17:before {
+  content: "\e838";
+}
+.icon-remen:before {
+  content: "\e631";
+}
 .icon-font47:before {
   content: "\e63d";
+}
+.icon-nianling:before {
+  content: "\e7ba";
+}
+.icon-xingbie:before {
+  content: "\e7f8";
+}
+.icon-jianjie:before {
+  content: "\e618";
 }
 .icon-jiahao2fill:before {
   content: "\e728";
@@ -114,6 +135,24 @@ img {
 }
 .icon-yuyin:before {
   content: "\e687";
+}
+.icon-pinglun:before {
+  content: "\e63a";
+}
+.icon-nianling1:before {
+  content: "\e67b";
+}
+.icon-dongtai:before {
+  content: "\e613";
+}
+.icon-wenzhang-copy:before {
+  content: "\e644";
+}
+.icon-nicheng:before {
+  content: "\e722";
+}
+.icon-pinglun1:before {
+  content: "\e8c3";
 }
 .icon-bottom-m:before {
   content: "\e60d";

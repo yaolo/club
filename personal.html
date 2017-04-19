@@ -33,31 +33,31 @@
         <span class='tips'></span>
     </div>
     <div>
-        <p>昵称</p>
+        <p><i class='iconfont icon-nicheng'></i>昵称</p>
         <input type="text" placeholder='请输入您的用户名'>
     </div>
     <div>
-        <p>性别</p>
+        <p><i class='iconfont icon-xingbie'></i>性别</p>
         <input type="radio" name="radio">
         <span class='txt'>男</span>
         <input type="radio" name="radio">
         <span>女</span>
     </div>
     <div>
-        <p>年龄</p>
+        <p><i class='iconfont icon-nianling'></i>年龄</p>
         <input type="text" placeholder='请输入您的年龄'>
     </div>
     <div>
-        <p>电子邮箱</p>
+        <p><i class='iconfont icon-svg17'></i>电子邮箱</p>
         <input type="email" placeholder='请输入您的常用邮箱'>
     </div>
     <div>
-        <p>手机号</p>
+        <p><i class='iconfont icon-shoujihao'></i>手机号</p>
         <input type="tel" placeholder='请输入您的手机号'>
     </div>
 
     <div>
-        <p>个人简介</p>
+        <p><i class='iconfont icon-jianjie'></i>个人简介</p>
         <textarea placeholder='填写你的个人简介'></textarea>
     </div>
     <input type="submit" value='保存' class='submit'>
@@ -78,35 +78,5 @@
 </div>
 <script src='js/jquery.min.js'></script>
 <script src='js/common.js'></script>
-<script>
-    function xmTanUploadImg(obj) {
-        console.log(obj);
-        var file = obj.files;
-        console.log(file);
-        console.log("file.size = " + file.size);  //file.size 单位为byte
-        var reader = new FileReader();
-        //读取文件过程方法
-        reader.onloadstart = function (e) {
-            console.log("开始读取....");
-        }
-        reader.onprogress = function (e) {
-            console.log("正在读取中....");
-        }
-        reader.onabort = function (e) {
-            console.log("中断读取....");
-        }
-        reader.onerror = function (e) {
-            console.log("读取异常....");
-        }
-        reader.onload = function (e) {
-            console.log("成功读取....");
-
-            var img = document.getElementById("xmTanImg");
-            img.src = e.target.result;
-            //或者 img.src = this.result;  //e.target == this
-        }
-        reader.readAsDataURL(file);
-    }
-</script>
 </body>
 </html>
